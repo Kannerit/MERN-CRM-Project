@@ -1,0 +1,119 @@
+.customers-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.header-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+  width: 80px;
+}
+.customer-list-header {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.customer-list-box {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.customer-list-box ul {
+  list-style-type: none;
+  padding: 0;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-customer-btn {
+  font-family: "Quicksand", sans-serif;
+  background-color: #eadbc8;
+  width: 330px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.4s ease;
+  border: 1px solid black;
+}
+
+.new-customer-btn:hover {
+  background-color: #dac0a3;
+}
+
+.new-customer-btn {
+  font-family: "Quicksand", sans-serif;
+  background-color: #eadbc8;
+  width: 330px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.4s ease;
+  border: 1px solid black;
+}
+
+.new-customer-btn:hover {
+  background-color: #dac0a3;
+}
+
+.header-btn {
+  font-family: "Quicksand", sans-serif;
+  background-color: #eadbc8;
+  width: 70px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.4s ease;
+  border: 1px solid black;
+}
+
+
+.header-btn:hover {
+  background-color: #dac0a3;
+}
+
+.customer-li {
+  padding: 7px;
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(191, 189, 189);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.customer-li:hover {
+  background-color: #f0e6d6;
+}
+
+.customers-list-container li:hover a {
+  color: #fefaf6;
+}
+
+.customers-list-container li a {
+  text-decoration: none;
+  color: black;
+  font-family: quicksand, sans-serif;
+  display: block;
+  text-align: center;
+}

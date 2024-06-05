@@ -1,0 +1,51 @@
+.customer-info-container {
+  max-width: 700px;
+  margin: 55px auto;
+  padding: 20px;
+  border: 1 px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(168, 162, 162);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-header {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 9px;
+  color: black;
+}
+
+.container-data {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-left: 10px;
+
+}
+
+.btn-container {
+
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-btn {
+  font-family: "Quicksand", sans-serif;
+  background-color: #eadbc8;
+  color: black;
+  padding: 10px 20px;
+  margin: 20px 10px 0 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.4s ease;
+}
+
+.info-btn:hover {
+  background-color: #dac0a3;
+}

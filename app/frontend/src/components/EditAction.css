@@ -1,0 +1,70 @@
+.edit-action-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #fefaf6;
+    border-radius: 5px;
+    background-color: #eadbc8;
+    box-shadow: 0 2px 4px rgb(204, 196, 196);
+    font-family: "quicksand", sans-serif;
+  }
+  
+  .edit-action-header {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .edit-datetime-container {
+      display: flex;
+      gap: 15px
+  }
+  
+  .edit-datetime-container .edit-action-form-group {
+      flex: 1
+  }
+  .edit-action-form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-action-form-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .edit-action-form-group input,
+  .edit-action-form-group textarea {
+    padding: 7px;
+    border: 1px solid #af8f6f;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  
+  .edit-action-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .edit-add-btn,
+  .edit-cancel-back-btn {
+    font-family: "Quicksand", sans-serif;
+    background-color: #dac0a3;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-action-add-btn:hover,
+  .edit-cancel-back-btn:hover {
+    background-color: #af8f6f;
+  }
+  
